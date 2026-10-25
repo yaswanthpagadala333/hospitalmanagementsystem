@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+
+# --- Runtime data (regenerated on first run — never commit real records) ---
+database/hospital.db
+config/settings.json
+logs/*.log*
+exports/csv/*.csv
+exports/json/*.json
+exports/reports/*.pdf
+exports/charts/*.png
+!exports/**/.gitkeep
+!logs/.gitkeep
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
